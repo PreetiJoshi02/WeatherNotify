@@ -1,0 +1,19 @@
+{
+  "name": "weather-web",
+  "version": "1.0.0",
+  "description": "Weather Notification Web App",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node": "^25.8.1",
+    "node-fetch": "^3.3.2"
+  }
+}

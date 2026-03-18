@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(135deg, #11998e, #38ef7d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glass container */
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    width: 320px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Input + button */
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+/* Result card */
+.result-card {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.3);
+}
